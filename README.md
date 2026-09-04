@@ -98,13 +98,14 @@ SELECT * FROM google_cleaned;
 ```
 ---
 Tableau Calculated Fields & LOD Formulas
-Monthly Leads (LOD):
+
+- Monthly Leads (LOD):
 { FIXED DATETRUNC('month', [Ad Date]) : SUM([Leads]) }
 
-Monthly Spend (LOD):
+- Monthly Spend (LOD):
 { FIXED DATETRUNC('month', [Ad Date]) : SUM([Spend]) }
 
-Dynamic Metric Selector:
+- Dynamic Metric Selector:
 CASE [Select Metric]
     WHEN 'CPL' THEN [Spend] / NULLIF([Leads], 0)
     WHEN 'CTR' THEN ([Clicks] / NULLIF([Impressions], 0)) * 100
