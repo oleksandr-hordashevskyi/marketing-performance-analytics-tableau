@@ -97,15 +97,15 @@ SELECT * FROM google_cleaned;
 
 ```
 ---
-Tableau Calculated Fields & LOD Formulas
-
-- Monthly Leads (LOD):
+### Tableau Calculated Fields & LOD Formulas
+ ```sql
+* **Monthly Leads (LOD):
 { FIXED DATETRUNC('month', [Ad Date]) : SUM([Leads]) }
 
-- Monthly Spend (LOD):
+* **Monthly Spend (LOD):
 { FIXED DATETRUNC('month', [Ad Date]) : SUM([Spend]) }
 
-- Dynamic Metric Selector:
+* **Dynamic Metric Selector:
 CASE [Select Metric]
 
  WHEN 'CPL' THEN [Spend] / NULLIF([Leads], 0)
@@ -114,7 +114,8 @@ CASE [Select Metric]
  WHEN 'CPM' THEN ([Spend] / NULLIF([Impressions], 0)) * 1000
  WHEN 'ROMI' THEN [Value] / NULLIF([Spend], 0)
 END
-
+```
+---
 📊 Project Structure & Deliverables
 
 marketing-performance-analytics-tableau/
