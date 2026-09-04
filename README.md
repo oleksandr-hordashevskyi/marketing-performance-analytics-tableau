@@ -135,13 +135,15 @@ marketing-performance-analytics-tableau/
 
 📄 SQL Pipeline Source: sql/marketing_ads_data.sql
 
-📈 Dashboard Preview
+## 📈 Dashboard Preview
 
-- Top KPI Scorecards: Macro tracking of Spend, Impressions, Clicks, Leads, CTR, CPC, CPL, CPM, and ROMI.
-- Spend vs. Leads Dual-Axis Analysis: Monthly expenditure vs. lead volume with floating correlation tracking ($77.76\%$).
-- Dynamic Metric Trend: Longitudinal performance broken down by advertising source (Facebook vs. Google).
-- Campaign Ranking: Horizontal performance hierarchy sorted by the active selected metric.
-- Campaign Efficiency Scatter Plot: Interactive multi-attribute correlation matrix (Spend vs. Efficiency by Lead Volume).
+![Marketing Performance Overview](images/Marketing%20Performance%20Overview.png)
+
+* **Top KPI Scorecards**: Macro tracking of Spend, Impressions, Clicks, Leads, CTR, CPC, CPL, CPM, and ROMI.
+* **Spend vs. Leads Dual-Axis Analysis**: Monthly expenditure vs. lead volume with floating correlation tracking (77.76%).
+* **Dynamic Metric Trend**: Longitudinal performance broken down by advertising source (Facebook vs. Google).
+* **Campaign Ranking**: Horizontal performance hierarchy sorted by the active selected metric.
+* **Campaign Efficiency Scatter Plot**: Interactive multi-attribute correlation matrix (Spend vs. Efficiency by Lead Volume).
 
 ## ✉️ Contact
 
