@@ -107,6 +107,7 @@ Tableau Calculated Fields & LOD Formulas
 
 - Dynamic Metric Selector:
 CASE [Select Metric]
+
     WHEN 'CPL' THEN [Spend] / NULLIF([Leads], 0)
     WHEN 'CTR' THEN ([Clicks] / NULLIF([Impressions], 0)) * 100
     WHEN 'CPC' THEN [Spend] / NULLIF([Clicks], 0)
