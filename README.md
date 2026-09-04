@@ -117,7 +117,7 @@ END
 ```
 ---
 📊 Project Structure & Deliverables
-
+```text
 marketing-performance-analytics-tableau/
 ├── LICENSE
 ├── README.md
@@ -129,7 +129,8 @@ marketing-performance-analytics-tableau/
 │   └── marketing_ads_data.csv
 └── images/
     └── Marketing_Performance_Overview.png
-
+```
+---
 🔗 Interactive Tableau Public Dashboard: Live Dashboard Link
 
 📄 SQL Pipeline Source: sql/marketing_ads_data.sql
