@@ -131,9 +131,8 @@ marketing-performance-analytics-tableau/
     └── Marketing_Performance_Overview.png
 ```
 ---
-🔗 Interactive Tableau Public Dashboard: Live Dashboard Link
-
-📄 SQL Pipeline Source: sql/marketing_ads_data.sql
+* 🔗 **Interactive Tableau Public Dashboard**: [Open Live Dashboard on Tableau Public](https://public.tableau.com/views/MarketingPerformanceOverview_17883666080780/MarketingPerformanceOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+* 📄 **SQL Pipeline Source**: [`sql/marketing_ads_data.sql`](sql/marketing_ads_data.sql)
 
 ## 📈 Dashboard Preview
 
