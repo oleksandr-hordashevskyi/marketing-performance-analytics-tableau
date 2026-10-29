@@ -10,7 +10,17 @@ This project delivers an end-to-end **Multi-Channel Marketing Performance & Effi
 The platform consolidates advertising spend, engagement, and conversion metrics across fragmented sources (**Facebook Ads** and **Google Ads**), joining relational fact tables with dimension lookups, decoding UTM campaign tracking parameters, and normalizing core marketing KPIs. The resulting interactive dashboard evaluates overall ROI ($28.62\text{M}$ total spend generating $12.26\text{K}$ leads at $1.22$ ROMI), budget-to-lead correlation ($77.76\%$), and cross-channel campaign efficiency.
 
 ---
+## 📈 Dashboard Preview
 
+![Marketing Performance Overview](images/Marketing%20Performance%20Overview.png)
+
+* **Top KPI Scorecards**: Macro tracking of Spend, Impressions, Clicks, Leads, CTR, CPC, CPL, CPM, and ROMI.
+* **Spend vs. Leads Dual-Axis Analysis**: Monthly expenditure vs. lead volume with floating correlation tracking (77.76%).
+* **Dynamic Metric Trend**: Longitudinal performance broken down by advertising source (Facebook vs. Google).
+* **Campaign Ranking**: Horizontal performance hierarchy sorted by the active selected metric.
+* **Campaign Efficiency Scatter Plot**: Interactive multi-attribute correlation matrix (Spend vs. Efficiency by Lead Volume).
+
+--- 
 ## 🎯 Business Problem
 * **Data Fragmentation**: Marketing performance data was split across siloed Facebook and Google Ads tables with encrypted IDs, missing dimension attributes, and encoded UTM query parameters.
 * **Budget Scalability (Spend vs. Leads)**: Does increasing multi-channel ad spend yield proportional lead volume, or are specific channels hitting diminishing marginal returns?
@@ -133,16 +143,6 @@ marketing-performance-analytics-tableau/
 ---
 * 🔗 **Interactive Tableau Public Dashboard**: [Open Live Dashboard on Tableau Public](https://public.tableau.com/views/MarketingPerformanceOverview_17883666080780/MarketingPerformanceOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 * 📄 **SQL Pipeline Source**: [`sql/marketing_ads_data.sql`](sql/marketing_ads_data.sql)
-
-## 📈 Dashboard Preview
-
-![Marketing Performance Overview](images/Marketing%20Performance%20Overview.png)
-
-* **Top KPI Scorecards**: Macro tracking of Spend, Impressions, Clicks, Leads, CTR, CPC, CPL, CPM, and ROMI.
-* **Spend vs. Leads Dual-Axis Analysis**: Monthly expenditure vs. lead volume with floating correlation tracking (77.76%).
-* **Dynamic Metric Trend**: Longitudinal performance broken down by advertising source (Facebook vs. Google).
-* **Campaign Ranking**: Horizontal performance hierarchy sorted by the active selected metric.
-* **Campaign Efficiency Scatter Plot**: Interactive multi-attribute correlation matrix (Spend vs. Efficiency by Lead Volume).
 
 ## ✉️ Contact
 
